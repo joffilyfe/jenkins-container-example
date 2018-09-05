@@ -9,3 +9,6 @@ class BasicTest(unittest.TestCase):
 
   def test_should_say_hello_world(self):
     self.assertEqual('hello world', say_hello())
+
+  def test_should_say_hello_name(self):
+    self.assertEqual('hello name', say_hello())
